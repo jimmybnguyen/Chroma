@@ -4,10 +4,18 @@ using UnityEngine;
 
 public class ChangeColor : MonoBehaviour {
 
+    public SteamVR_TrackedObject rightController;
     public ColorManager cm;
-	
-	// Update is called once per frame
-	void Update () {
-        GetComponent<Renderer>().material.color = cm.color;
+
+    void Update()
+    {
+
+    }
+    void OnTriggerStay(Collider col) {
+        SteamVR_Controller.Device device = SteamVR_Controller.Input((int)rightController.index);
+        if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Trigger))
+        {
+            GetComponent<Renderer>().material.color = cm.color;
+        }
 	}
 }
