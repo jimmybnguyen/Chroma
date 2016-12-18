@@ -11,7 +11,7 @@ public class Draggable : MonoBehaviour
     public Transform thumb;
     bool dragging;
 
-    void Update()
+    void FixedUpdate()
     {
         SteamVR_Controller.Device device = SteamVR_Controller.Input((int)rightController.index);
         if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Trigger))
@@ -20,12 +20,14 @@ public class Draggable : MonoBehaviour
             Ray ray = new Ray(rightController.transform.position, rightController.transform.forward);
             //var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            if (GetComponent<Collider>().Raycast(ray, out hit, 100)) {
+            if (GetComponent<Collider>().Raycast(ray, out hit, 100))
+            {
                 dragging = true;
             }
         }
         if (device.GetTouchUp(SteamVR_Controller.ButtonMask.Trigger)) dragging = false;
-        if (dragging && device.GetTouch(SteamVR_Controller.ButtonMask.Trigger)) {
+        if (dragging && device.GetTouch(SteamVR_Controller.ButtonMask.Trigger))
+        {
             Ray ray = new Ray(rightController.transform.position, rightController.transform.forward);
             //var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
@@ -34,7 +36,7 @@ public class Draggable : MonoBehaviour
                 var point = hit.point; //Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 // point = GetComponent<Collider>().ClosestPointOnBounds(point);
                 SetThumbPosition(point);
-                SendMessage("OnDrag", Vector3.one - (thumb.localPosition - minBound.localPosition) / GetComponent<BoxCollider>().bounds.size.x);
+                SendMessage("OnDrag", Vector3.one - (thumb.localPosition - minBound.localPosition) / GetComponent<BoxCollider>().size.x);
             }
         }
     }
