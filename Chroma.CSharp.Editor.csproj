@@ -132,6 +132,10 @@
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\Controls\2D\RadialMenu\Editor\RadialMenuInspector.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\ColorPicker\readme.txt" />
+    <None Include="Assets\Shaders\ColorHue.shader" />
+    <None Include="Assets\Shaders\ColorSaturationBrightness.shader" />
+    <None Include="Assets\Shaders\SolidColor.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />

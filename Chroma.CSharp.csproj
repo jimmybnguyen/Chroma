@@ -75,6 +75,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\Scripts\ColorHuePicker.cs" />
+    <Compile Include="Assets\Scripts\ColorIndicator.cs" />
+    <Compile Include="Assets\Scripts\ColorManager.cs" />
+    <Compile Include="Assets\Scripts\ColorSaturationBrightnessPicker.cs" />
+    <Compile Include="Assets\Scripts\Draggable.cs" />
+    <Compile Include="Assets\Scripts\ExampleColorReceiver.cs" />
+    <Compile Include="Assets\Scripts\HSBColor.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
@@ -282,6 +290,10 @@
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\Utilities\VRTK_Simulator.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\ColorPicker\readme.txt" />
+    <None Include="Assets\Shaders\ColorHue.shader" />
+    <None Include="Assets\Shaders\ColorSaturationBrightness.shader" />
+    <None Include="Assets\Shaders\SolidColor.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
