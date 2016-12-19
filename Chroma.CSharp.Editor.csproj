@@ -106,6 +106,9 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>Library\UnityAssemblies\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
@@ -125,25 +128,19 @@
     <Compile Include="Assets\SteamVR\Editor\SteamVR_Settings.cs" />
     <Compile Include="Assets\SteamVR\Editor\SteamVR_SkyboxEditor.cs" />
     <Compile Include="Assets\SteamVR\Editor\SteamVR_Update.cs" />
-    <Compile Include="Assets\VRTK\Assets\VRTK\Editor\VRTK_AdaptiveQualityEditor.cs" />
-    <Compile Include="Assets\VRTK\Assets\VRTK\Editor\VRTK_EditorUtilities.cs" />
-    <Compile Include="Assets\VRTK\Assets\VRTK\Editor\VRTK_PolicyListEditor.cs" />
-    <Compile Include="Assets\VRTK\Assets\VRTK\Editor\VRTK_SDKManagerEditor.cs" />
-    <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\Controls\2D\RadialMenu\Editor\RadialMenuInspector.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\ColorPicker\readme.txt" />
+    <None Include="Assets\Shaders\ColorHue.shader" />
+    <None Include="Assets\Shaders\ColorSaturationBrightness.shader" />
+    <None Include="Assets\Shaders\Outline.shader" />
+    <None Include="Assets\Shaders\SolidColor.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
     <None Include="Assets\SteamVR\readme.txt" />
-    <None Include="Assets\VRTK\Assets\VRTK\Scripts\Internal\Shaders\AdaptiveQualityDebugVisualization.shader" />
-    <None Include="Assets\VRTK\Assets\VRTK\Scripts\Internal\Shaders\TransparentFresnelBehind.shader" />
-    <None Include="Assets\VRTK\Assets\VRTK\Scripts\Internal\Shaders\UIOverlay.shader" />
-    <None Include="Assets\VRTK\Assets\VRTK\Scripts\Internal\Shaders\Unlit_TransparentColor.shader" />
-    <None Include="Assets\VRTK\Assets\VRTK\Scripts\Internal\Shaders\VRTK_OutlineBasic.shader" />
-    <None Include="Assets\VRTK\Assets\VRTK\Version.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
