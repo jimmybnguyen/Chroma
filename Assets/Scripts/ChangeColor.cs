@@ -9,7 +9,6 @@ public class ChangeColor : MonoBehaviour {
 
     void Update()
     {
-
     }
     void OnTriggerStay(Collider col) {
         SteamVR_Controller.Device device = SteamVR_Controller.Input((int)rightController.index);
