@@ -8,15 +8,27 @@ ModelImporter:
     100000: Cylinder
     100002: Cylinder_008
     100004: //RootNode
+    100006: tree
+    100008: trunk
     400000: Cylinder
     400002: Cylinder_008
     400004: //RootNode
+    400006: tree
+    400008: trunk
     2300000: Cylinder
     2300002: Cylinder_008
+    2300004: //RootNode
+    2300006: tree
+    2300008: trunk
     3300000: Cylinder
     3300002: Cylinder_008
+    3300004: //RootNode
+    3300006: tree
+    3300008: trunk
     4300000: Cylinder_008
     4300002: Cylinder
+    4300004: trunk
+    4300006: tree
     7400000: Default Take
     9500000: //RootNode
   materials:
