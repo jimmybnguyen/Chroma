@@ -26,7 +26,7 @@
 	uniform float4 _MainTex_ST;
 	uniform sampler2D _MainTex;
 
-	struct v2f
+	stuctr v2f
 	{
 		float4 pos : POSITION;
 		float4 color : COLOR;
