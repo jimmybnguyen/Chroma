@@ -14,7 +14,7 @@ public class Draggable : MonoBehaviour
     void FixedUpdate()
     {
         SteamVR_Controller.Device device = SteamVR_Controller.Input((int)rightController.index);
-        if (device.GetPressDown(SteamVR_Controller.ButtonMask.Grip))
+        if (device.GetPressDown(SteamVR_Controller.ButtonMask.Trigger))
         {
             dragging = false;
             Ray ray = new Ray(rightController.transform.position, rightController.transform.forward);
@@ -25,8 +25,8 @@ public class Draggable : MonoBehaviour
                 dragging = true;
             }
         }
-        if (device.GetPressUp(SteamVR_Controller.ButtonMask.Grip)) dragging = false;
-        if (dragging && device.GetPress(SteamVR_Controller.ButtonMask.Grip))
+        if (device.GetPressUp(SteamVR_Controller.ButtonMask.Trigger)) dragging = false;
+        if (dragging && device.GetPress(SteamVR_Controller.ButtonMask.Trigger))
         {
             Ray ray = new Ray(rightController.transform.position, rightController.transform.forward);
             //var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
