@@ -4,7 +4,7 @@ Shader "Outlined Diffuse"
 	{
 		_Color("Main Color", Color) = (.5,.5,.5,1)
 		_OutlineColor("Outline Color", Color) = (0,1,0,1)
-		_Outline("Outline width", Range(0.002, 1.00)) = 0.01
+		_Outline("Outline width", Range(0.002, 100.00)) = 0.01
 		_MainTex("Base (RGB)", 2D) = "white" { }
 	}
 
