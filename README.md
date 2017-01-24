@@ -3,7 +3,11 @@ Made for a showcase hosted by [UWVRA](https://www.facebook.com/groups/uwvra) and
 
 # Credits
 [VRTK](https://github.com/thestonefox/VRTK): for the scripts 
+
 [Fuseman](https://www.youtube.com/watch?v=wysIsMEQ3_Y): for the color-picker tutorial
+
 [AxeyWorks](https://www.assetstore.unity3d.com/en/#!/content/58821): for some 3D models
+
 [PigArt](https://www.youtube.com/watch?v=rtO9maU709k): for Blender tutorial
+
 [Jane Yu](http://janejyu.com/): for the idea
