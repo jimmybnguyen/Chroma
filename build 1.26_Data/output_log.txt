@@ -27,7 +27,7 @@ Platform assembly: C:\Users\iguest\Desktop\Chroma\build 1.26_Data\Managed\GETwee
 Loading C:\Users\iguest\Desktop\Chroma\build 1.26_Data\Managed\GETween.dll into Unity Child Domain
 Platform assembly: C:\Users\iguest\Desktop\Chroma\build 1.26_Data\Managed\GUIAnimatorFREE.dll (this message is harmless)
 Loading C:\Users\iguest\Desktop\Chroma\build 1.26_Data\Managed\GUIAnimatorFREE.dll into Unity Child Domain
-- Completed reload, in  0.028 seconds
+- Completed reload, in  0.025 seconds
 Platform assembly: C:\Users\iguest\Desktop\Chroma\build 1.26_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\iguest\Desktop\Chroma\build 1.26_Data\Managed\System.dll (this message is harmless)
 <RI> Initializing input.
@@ -50,7 +50,7 @@ Failed to create Convex Mesh from source mesh "under_top". Source mesh is likely
  
 (Filename:  Line: 54)
 
-UnloadTime: 0.379362 ms
+UnloadTime: 0.436560 ms
 ConvexHullBuilder::CreateTrianglesFromPolygons: convex hull has a polygon with less than 3 vertices!
  
 (Filename: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp Line: 1116)
@@ -212,7 +212,7 @@ Connected to lighthouse:LHR-4955E1F2
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2cd0 -> priority: 1 
+  Thread -> id: 30c -> priority: 1 
 OpenVR Shutdown
  
 (Filename:  Line: 815)
